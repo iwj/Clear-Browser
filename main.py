@@ -12,3 +12,20 @@ def clear_browser():
 
 if __name__ == "__main__":
     clear_browser()
+
+
+
+
+    """
+    bs4 demo in iPython
+
+    In [10]: type(soup)
+    Out[10]: bs4.BeautifulSoup
+
+    In [11]: for link in soup.find_all("a"):
+       ....:     print(link.get("href"))
+          ....:
+          http://wufazhuce.com/
+          http://wufazhuce.com/one
+          http://wufazhuce.com/noticias
+    """
